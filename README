@@ -1,0 +1,15 @@
+README
+
+
+This folder is organized as follows:
+  - CRF: Folder that contains the code for CRF, CTree and CTree pruning.
+  - functions: folder that contains help functions for running simulations and real-data applications.
+  - small_simulations: folder that contains a main script for running simulation study: small_sim.R, diversity_sim.R (investigating effect of not subsampling nodes in CRF), plus help functions.
+  - large_simulations: folder that contains a main script for running simulation study: large_sim.R, plus help functions.
+  - benchmarks_application: folder that contains code for preprocessing + running real-data examples. 
+    Note that due to copyright we do not store datasets here, but give links for downloading them.
+    ACS data is dowloaded using the "Whyshift" package
+    Note also that the *_format_data.R scripts must be ran first to get the preprocessed data.
+    Then the main realdata_tests.R script can be run.
+    
+To run these scripts, one must set the working directory to be this folder.
